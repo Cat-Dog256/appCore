@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LKAppCore"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "app公共类的封装与总结，学习编写单元测试."
   s.homepage     = "https://github.com/Cat-Dog256/appCore"
   s.license      = "MIT"
