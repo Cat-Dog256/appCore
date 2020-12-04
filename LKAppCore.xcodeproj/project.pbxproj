@@ -16,6 +16,11 @@
 		047EED0A2579BB8C007CD58E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047EED092579BB8C007CD58E /* main.m */; };
 		047EED142579BB8C007CD58E /* LKAppCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047EED132579BB8C007CD58E /* LKAppCoreTests.m */; };
 		047EED1F2579BB8C007CD58E /* LKAppCoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047EED1E2579BB8C007CD58E /* LKAppCoreUITests.m */; };
+		047EED402579D64E007CD58E /* LKUserInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 047EED362579D64E007CD58E /* LKUserInfoManager.m */; };
+		047EED412579D64E007CD58E /* LKResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 047EED382579D64E007CD58E /* LKResponse.m */; };
+		047EED422579D64E007CD58E /* LKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 047EED3A2579D64E007CD58E /* LKRequest.m */; };
+		047EED432579D64E007CD58E /* LKUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 047EED3C2579D64E007CD58E /* LKUserModel.m */; };
+		047EED442579D64E007CD58E /* LKUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 047EED3E2579D64E007CD58E /* LKUploadRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,16 @@
 		047EED1A2579BB8C007CD58E /* LKAppCoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKAppCoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047EED1E2579BB8C007CD58E /* LKAppCoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAppCoreUITests.m; sourceTree = "<group>"; };
 		047EED202579BB8C007CD58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047EED362579D64E007CD58E /* LKUserInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKUserInfoManager.m; sourceTree = "<group>"; };
+		047EED372579D64E007CD58E /* LKUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKUserModel.h; sourceTree = "<group>"; };
+		047EED382579D64E007CD58E /* LKResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKResponse.m; sourceTree = "<group>"; };
+		047EED392579D64E007CD58E /* LKUploadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKUploadRequest.h; sourceTree = "<group>"; };
+		047EED3A2579D64E007CD58E /* LKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKRequest.m; sourceTree = "<group>"; };
+		047EED3B2579D64E007CD58E /* LKUserInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKUserInfoManager.h; sourceTree = "<group>"; };
+		047EED3C2579D64E007CD58E /* LKUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKUserModel.m; sourceTree = "<group>"; };
+		047EED3D2579D64E007CD58E /* LKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKRequest.h; sourceTree = "<group>"; };
+		047EED3E2579D64E007CD58E /* LKUploadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKUploadRequest.m; sourceTree = "<group>"; };
+		047EED3F2579D64E007CD58E /* LKResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKResponse.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +99,7 @@
 		047EECEB2579BB89007CD58E = {
 			isa = PBXGroup;
 			children = (
+				047EED352579D64E007CD58E /* LKNetwork */,
 				047EECF62579BB89007CD58E /* LKAppCore */,
 				047EED122579BB8C007CD58E /* LKAppCoreTests */,
 				047EED1D2579BB8C007CD58E /* LKAppCoreUITests */,
@@ -135,6 +151,23 @@
 				047EED202579BB8C007CD58E /* Info.plist */,
 			);
 			path = LKAppCoreUITests;
+			sourceTree = "<group>";
+		};
+		047EED352579D64E007CD58E /* LKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				047EED362579D64E007CD58E /* LKUserInfoManager.m */,
+				047EED372579D64E007CD58E /* LKUserModel.h */,
+				047EED382579D64E007CD58E /* LKResponse.m */,
+				047EED392579D64E007CD58E /* LKUploadRequest.h */,
+				047EED3A2579D64E007CD58E /* LKRequest.m */,
+				047EED3B2579D64E007CD58E /* LKUserInfoManager.h */,
+				047EED3C2579D64E007CD58E /* LKUserModel.m */,
+				047EED3D2579D64E007CD58E /* LKRequest.h */,
+				047EED3E2579D64E007CD58E /* LKUploadRequest.m */,
+				047EED3F2579D64E007CD58E /* LKResponse.h */,
+			);
+			path = LKNetwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,10 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047EED442579D64E007CD58E /* LKUploadRequest.m in Sources */,
 				047EECFF2579BB89007CD58E /* ViewController.m in Sources */,
 				047EECF92579BB89007CD58E /* AppDelegate.m in Sources */,
+				047EED402579D64E007CD58E /* LKUserInfoManager.m in Sources */,
 				047EED0A2579BB8C007CD58E /* main.m in Sources */,
 				047EECFC2579BB89007CD58E /* SceneDelegate.m in Sources */,
+				047EED422579D64E007CD58E /* LKRequest.m in Sources */,
+				047EED412579D64E007CD58E /* LKResponse.m in Sources */,
+				047EED432579D64E007CD58E /* LKUserModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
