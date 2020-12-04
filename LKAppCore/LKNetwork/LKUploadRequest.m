@@ -7,7 +7,7 @@
 //
 
 #import "LKUploadRequest.h"
-#import <AFNetworking/AFURLRequestSerialization.h>
+#import "AFURLRequestSerialization.h"
 
 @implementation LKUploadRequest{
     NSArray<UIImage *> *_images;

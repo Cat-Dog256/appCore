@@ -9,7 +9,7 @@
 #import "YTKRequest.h"
 #import "LKResponse.h"
 #import "LKUserInfoManager.h"
-#import <MJExtension/MJExtension.h>
+#import "MJExtension.h"
 NS_ASSUME_NONNULL_BEGIN
 typedef enum : NSUInteger {
     SERVICE_36550,
