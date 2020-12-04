@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "Lice" => "lice_home@163.com" }
   s.source        = { :git => "https://github.com/Cat-Dog256/appCore.git", :tag => "#{s.version}" }
-  s.source_files = "LKNetwork/*.{h,m}"
+  s.source_files = "LKAppCore/LKNetwork/*.{h,m}"
   s.requires_arc  = true
 
 

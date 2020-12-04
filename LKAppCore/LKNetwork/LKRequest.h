@@ -6,10 +6,10 @@
 //  Copyright © 2020 yuantiku.com. All rights reserved.
 //
 
-#import "YTKRequest.h"
+#import <YTKNetwork/YTKNetwork.h>
 #import "LKResponse.h"
 #import "LKUserInfoManager.h"
-#import "MJExtension.h"
+#import <MJExtension/MJExtension.h>
 NS_ASSUME_NONNULL_BEGIN
 typedef enum : NSUInteger {
     SERVICE_36550,

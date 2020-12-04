@@ -3,225 +3,207 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0495EFAE257A06D800BCD1E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495EFAD257A06D800BCD1E9 /* AppDelegate.m */; };
-		0495EFB1257A06D800BCD1E9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495EFB0257A06D800BCD1E9 /* SceneDelegate.m */; };
-		0495EFB4257A06D800BCD1E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495EFB3257A06D800BCD1E9 /* ViewController.m */; };
-		0495EFB7257A06D800BCD1E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0495EFB5257A06D800BCD1E9 /* Main.storyboard */; };
-		0495EFB9257A06DA00BCD1E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0495EFB8257A06DA00BCD1E9 /* Assets.xcassets */; };
-		0495EFBC257A06DA00BCD1E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0495EFBA257A06DA00BCD1E9 /* LaunchScreen.storyboard */; };
-		0495EFBF257A06DA00BCD1E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495EFBE257A06DA00BCD1E9 /* main.m */; };
-		0495EFC9257A06DA00BCD1E9 /* LKAppCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495EFC8257A06DA00BCD1E9 /* LKAppCoreTests.m */; };
-		0495EFD4257A06DA00BCD1E9 /* LKAppCoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495EFD3257A06DA00BCD1E9 /* LKAppCoreUITests.m */; };
-		0495F091257A216500BCD1E9 /* LKUserInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F087257A216500BCD1E9 /* LKUserInfoManager.m */; };
-		0495F092257A216500BCD1E9 /* LKResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F089257A216500BCD1E9 /* LKResponse.m */; };
-		0495F093257A216500BCD1E9 /* LKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F08B257A216500BCD1E9 /* LKRequest.m */; };
-		0495F094257A216500BCD1E9 /* LKUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F08D257A216500BCD1E9 /* LKUserModel.m */; };
-		0495F095257A216500BCD1E9 /* LKUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F08F257A216500BCD1E9 /* LKUploadRequest.m */; };
-		4B3BCED2778787F01D090937 /* Pods_LKAppCoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BED524C50D9B3DA3BC26F9A /* Pods_LKAppCoreTests.framework */; };
-		D5A2CF2D3D8F3D20202C3629 /* Pods_LKAppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B1BFA6400811DE32C229FA /* Pods_LKAppCore.framework */; };
-		FA66BF3B4C488426CBBF4AD1 /* Pods_LKAppCore_LKAppCoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653D3CEF17D161220F140326 /* Pods_LKAppCore_LKAppCoreUITests.framework */; };
+		0495F0B4257A2C2A00BCD1E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F0B3257A2C2A00BCD1E9 /* AppDelegate.m */; };
+		0495F0B7257A2C2A00BCD1E9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F0B6257A2C2A00BCD1E9 /* SceneDelegate.m */; };
+		0495F0BA257A2C2A00BCD1E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F0B9257A2C2A00BCD1E9 /* ViewController.m */; };
+		0495F0BD257A2C2A00BCD1E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0495F0BB257A2C2A00BCD1E9 /* Main.storyboard */; };
+		0495F0BF257A2C2D00BCD1E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0495F0BE257A2C2D00BCD1E9 /* Assets.xcassets */; };
+		0495F0C2257A2C2D00BCD1E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0495F0C0257A2C2D00BCD1E9 /* LaunchScreen.storyboard */; };
+		0495F0C5257A2C2D00BCD1E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F0C4257A2C2D00BCD1E9 /* main.m */; };
+		0495F0CF257A2C2E00BCD1E9 /* LKAppCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F0CE257A2C2E00BCD1E9 /* LKAppCoreTests.m */; };
+		0495F0DA257A2C2E00BCD1E9 /* LKAppCoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F0D9257A2C2E00BCD1E9 /* LKAppCoreUITests.m */; };
+		0495F0EF257A2C8600BCD1E9 /* MJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0495F0EB257A2C8600BCD1E9 /* MJExtension.framework */; };
+		0495F0F0257A2C8600BCD1E9 /* YTKNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0495F0EC257A2C8600BCD1E9 /* YTKNetwork.framework */; };
+		0495F0F1257A2C8700BCD1E9 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0495F0ED257A2C8600BCD1E9 /* SVProgressHUD.framework */; };
+		0495F0F2257A2C8700BCD1E9 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0495F0EE257A2C8600BCD1E9 /* AFNetworking.framework */; };
+		0495F0FE257A2CD700BCD1E9 /* LKUserInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F0F4257A2CD700BCD1E9 /* LKUserInfoManager.m */; };
+		0495F0FF257A2CD700BCD1E9 /* LKResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F0F6257A2CD700BCD1E9 /* LKResponse.m */; };
+		0495F100257A2CD700BCD1E9 /* LKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F0F8257A2CD700BCD1E9 /* LKRequest.m */; };
+		0495F101257A2CD700BCD1E9 /* LKUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F0FA257A2CD700BCD1E9 /* LKUserModel.m */; };
+		0495F102257A2CD700BCD1E9 /* LKUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495F0FC257A2CD700BCD1E9 /* LKUploadRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0495EFC5257A06DA00BCD1E9 /* PBXContainerItemProxy */ = {
+		0495F0CB257A2C2E00BCD1E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0495EFA1257A06D800BCD1E9 /* Project object */;
+			containerPortal = 0495F0A7257A2C2A00BCD1E9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0495EFA8257A06D800BCD1E9;
+			remoteGlobalIDString = 0495F0AE257A2C2A00BCD1E9;
 			remoteInfo = LKAppCore;
 		};
-		0495EFD0257A06DA00BCD1E9 /* PBXContainerItemProxy */ = {
+		0495F0D6257A2C2E00BCD1E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0495EFA1257A06D800BCD1E9 /* Project object */;
+			containerPortal = 0495F0A7257A2C2A00BCD1E9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0495EFA8257A06D800BCD1E9;
+			remoteGlobalIDString = 0495F0AE257A2C2A00BCD1E9;
 			remoteInfo = LKAppCore;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0495EFA9257A06D800BCD1E9 /* LKAppCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKAppCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0495EFAC257A06D800BCD1E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0495EFAD257A06D800BCD1E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0495EFAF257A06D800BCD1E9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		0495EFB0257A06D800BCD1E9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		0495EFB2257A06D800BCD1E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0495EFB3257A06D800BCD1E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0495EFB6257A06D800BCD1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0495EFB8257A06DA00BCD1E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0495EFBB257A06DA00BCD1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0495EFBD257A06DA00BCD1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0495EFBE257A06DA00BCD1E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0495EFC4257A06DA00BCD1E9 /* LKAppCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKAppCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0495EFC8257A06DA00BCD1E9 /* LKAppCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAppCoreTests.m; sourceTree = "<group>"; };
-		0495EFCA257A06DA00BCD1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0495EFCF257A06DA00BCD1E9 /* LKAppCoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKAppCoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0495EFD3257A06DA00BCD1E9 /* LKAppCoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAppCoreUITests.m; sourceTree = "<group>"; };
-		0495EFD5257A06DA00BCD1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0495F087257A216500BCD1E9 /* LKUserInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKUserInfoManager.m; sourceTree = "<group>"; };
-		0495F088257A216500BCD1E9 /* LKUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKUserModel.h; sourceTree = "<group>"; };
-		0495F089257A216500BCD1E9 /* LKResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKResponse.m; sourceTree = "<group>"; };
-		0495F08A257A216500BCD1E9 /* LKUploadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKUploadRequest.h; sourceTree = "<group>"; };
-		0495F08B257A216500BCD1E9 /* LKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKRequest.m; sourceTree = "<group>"; };
-		0495F08C257A216500BCD1E9 /* LKUserInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKUserInfoManager.h; sourceTree = "<group>"; };
-		0495F08D257A216500BCD1E9 /* LKUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKUserModel.m; sourceTree = "<group>"; };
-		0495F08E257A216500BCD1E9 /* LKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKRequest.h; sourceTree = "<group>"; };
-		0495F08F257A216500BCD1E9 /* LKUploadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKUploadRequest.m; sourceTree = "<group>"; };
-		0495F090257A216500BCD1E9 /* LKResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKResponse.h; sourceTree = "<group>"; };
-		0AB975E78A1EB9DCA31DE541 /* Pods-LKAppCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKAppCore.debug.xcconfig"; path = "Target Support Files/Pods-LKAppCore/Pods-LKAppCore.debug.xcconfig"; sourceTree = "<group>"; };
-		27B1BFA6400811DE32C229FA /* Pods_LKAppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKAppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BED524C50D9B3DA3BC26F9A /* Pods_LKAppCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKAppCoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		64141392859CC9BCB5BD9E07 /* Pods-LKAppCore-LKAppCoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKAppCore-LKAppCoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-LKAppCore-LKAppCoreUITests/Pods-LKAppCore-LKAppCoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		653D3CEF17D161220F140326 /* Pods_LKAppCore_LKAppCoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKAppCore_LKAppCoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AB893212F3178893CD59034 /* Pods-LKAppCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKAppCore.release.xcconfig"; path = "Target Support Files/Pods-LKAppCore/Pods-LKAppCore.release.xcconfig"; sourceTree = "<group>"; };
-		BD9962707F285F441D5115D7 /* Pods-LKAppCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKAppCoreTests.debug.xcconfig"; path = "Target Support Files/Pods-LKAppCoreTests/Pods-LKAppCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F54A5909CDCEC5652B28346A /* Pods-LKAppCore-LKAppCoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKAppCore-LKAppCoreUITests.release.xcconfig"; path = "Target Support Files/Pods-LKAppCore-LKAppCoreUITests/Pods-LKAppCore-LKAppCoreUITests.release.xcconfig"; sourceTree = "<group>"; };
-		FD20C682DA533BEAB32D2312 /* Pods-LKAppCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKAppCoreTests.release.xcconfig"; path = "Target Support Files/Pods-LKAppCoreTests/Pods-LKAppCoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		0495F0AF257A2C2A00BCD1E9 /* LKAppCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKAppCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0495F0B2257A2C2A00BCD1E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0495F0B3257A2C2A00BCD1E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0495F0B5257A2C2A00BCD1E9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0495F0B6257A2C2A00BCD1E9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0495F0B8257A2C2A00BCD1E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0495F0B9257A2C2A00BCD1E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0495F0BC257A2C2A00BCD1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0495F0BE257A2C2D00BCD1E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0495F0C1257A2C2D00BCD1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0495F0C3257A2C2D00BCD1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0495F0C4257A2C2D00BCD1E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0495F0CA257A2C2E00BCD1E9 /* LKAppCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKAppCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0495F0CE257A2C2E00BCD1E9 /* LKAppCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAppCoreTests.m; sourceTree = "<group>"; };
+		0495F0D0257A2C2E00BCD1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0495F0D5257A2C2E00BCD1E9 /* LKAppCoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKAppCoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0495F0D9257A2C2E00BCD1E9 /* LKAppCoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAppCoreUITests.m; sourceTree = "<group>"; };
+		0495F0DB257A2C2E00BCD1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0495F0EB257A2C8600BCD1E9 /* MJExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MJExtension.framework; sourceTree = "<group>"; };
+		0495F0EC257A2C8600BCD1E9 /* YTKNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YTKNetwork.framework; sourceTree = "<group>"; };
+		0495F0ED257A2C8600BCD1E9 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = "<group>"; };
+		0495F0EE257A2C8600BCD1E9 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
+		0495F0F4257A2CD700BCD1E9 /* LKUserInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKUserInfoManager.m; sourceTree = "<group>"; };
+		0495F0F5257A2CD700BCD1E9 /* LKUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKUserModel.h; sourceTree = "<group>"; };
+		0495F0F6257A2CD700BCD1E9 /* LKResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKResponse.m; sourceTree = "<group>"; };
+		0495F0F7257A2CD700BCD1E9 /* LKUploadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKUploadRequest.h; sourceTree = "<group>"; };
+		0495F0F8257A2CD700BCD1E9 /* LKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKRequest.m; sourceTree = "<group>"; };
+		0495F0F9257A2CD700BCD1E9 /* LKUserInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKUserInfoManager.h; sourceTree = "<group>"; };
+		0495F0FA257A2CD700BCD1E9 /* LKUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKUserModel.m; sourceTree = "<group>"; };
+		0495F0FB257A2CD700BCD1E9 /* LKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKRequest.h; sourceTree = "<group>"; };
+		0495F0FC257A2CD700BCD1E9 /* LKUploadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKUploadRequest.m; sourceTree = "<group>"; };
+		0495F0FD257A2CD700BCD1E9 /* LKResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKResponse.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0495EFA6257A06D800BCD1E9 /* Frameworks */ = {
+		0495F0AC257A2C2A00BCD1E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A2CF2D3D8F3D20202C3629 /* Pods_LKAppCore.framework in Frameworks */,
+				0495F0F1257A2C8700BCD1E9 /* SVProgressHUD.framework in Frameworks */,
+				0495F0F2257A2C8700BCD1E9 /* AFNetworking.framework in Frameworks */,
+				0495F0F0257A2C8600BCD1E9 /* YTKNetwork.framework in Frameworks */,
+				0495F0EF257A2C8600BCD1E9 /* MJExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0495EFC1257A06DA00BCD1E9 /* Frameworks */ = {
+		0495F0C7257A2C2E00BCD1E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B3BCED2778787F01D090937 /* Pods_LKAppCoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0495EFCC257A06DA00BCD1E9 /* Frameworks */ = {
+		0495F0D2257A2C2E00BCD1E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA66BF3B4C488426CBBF4AD1 /* Pods_LKAppCore_LKAppCoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0495EFA0257A06D800BCD1E9 = {
+		0495F0A6257A2C2A00BCD1E9 = {
 			isa = PBXGroup;
 			children = (
-				0495F086257A216500BCD1E9 /* LKNetwork */,
-				0495EFAB257A06D800BCD1E9 /* LKAppCore */,
-				0495EFC7257A06DA00BCD1E9 /* LKAppCoreTests */,
-				0495EFD2257A06DA00BCD1E9 /* LKAppCoreUITests */,
-				0495EFAA257A06D800BCD1E9 /* Products */,
-				FAE6F1BEAA76FB693AAA19C0 /* Pods */,
-				B2B806D048EC61CFDA17C437 /* Frameworks */,
+				0495F0F3257A2CD700BCD1E9 /* LKNetwork */,
+				0495F0EA257A2C4B00BCD1E9 /* Framework */,
+				0495F0B1257A2C2A00BCD1E9 /* LKAppCore */,
+				0495F0CD257A2C2E00BCD1E9 /* LKAppCoreTests */,
+				0495F0D8257A2C2E00BCD1E9 /* LKAppCoreUITests */,
+				0495F0B0257A2C2A00BCD1E9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0495EFAA257A06D800BCD1E9 /* Products */ = {
+		0495F0B0257A2C2A00BCD1E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0495EFA9257A06D800BCD1E9 /* LKAppCore.app */,
-				0495EFC4257A06DA00BCD1E9 /* LKAppCoreTests.xctest */,
-				0495EFCF257A06DA00BCD1E9 /* LKAppCoreUITests.xctest */,
+				0495F0AF257A2C2A00BCD1E9 /* LKAppCore.app */,
+				0495F0CA257A2C2E00BCD1E9 /* LKAppCoreTests.xctest */,
+				0495F0D5257A2C2E00BCD1E9 /* LKAppCoreUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0495EFAB257A06D800BCD1E9 /* LKAppCore */ = {
+		0495F0B1257A2C2A00BCD1E9 /* LKAppCore */ = {
 			isa = PBXGroup;
 			children = (
-				0495EFAC257A06D800BCD1E9 /* AppDelegate.h */,
-				0495EFAD257A06D800BCD1E9 /* AppDelegate.m */,
-				0495EFAF257A06D800BCD1E9 /* SceneDelegate.h */,
-				0495EFB0257A06D800BCD1E9 /* SceneDelegate.m */,
-				0495EFB2257A06D800BCD1E9 /* ViewController.h */,
-				0495EFB3257A06D800BCD1E9 /* ViewController.m */,
-				0495EFB5257A06D800BCD1E9 /* Main.storyboard */,
-				0495EFB8257A06DA00BCD1E9 /* Assets.xcassets */,
-				0495EFBA257A06DA00BCD1E9 /* LaunchScreen.storyboard */,
-				0495EFBD257A06DA00BCD1E9 /* Info.plist */,
-				0495EFBE257A06DA00BCD1E9 /* main.m */,
+				0495F0B2257A2C2A00BCD1E9 /* AppDelegate.h */,
+				0495F0B3257A2C2A00BCD1E9 /* AppDelegate.m */,
+				0495F0B5257A2C2A00BCD1E9 /* SceneDelegate.h */,
+				0495F0B6257A2C2A00BCD1E9 /* SceneDelegate.m */,
+				0495F0B8257A2C2A00BCD1E9 /* ViewController.h */,
+				0495F0B9257A2C2A00BCD1E9 /* ViewController.m */,
+				0495F0BB257A2C2A00BCD1E9 /* Main.storyboard */,
+				0495F0BE257A2C2D00BCD1E9 /* Assets.xcassets */,
+				0495F0C0257A2C2D00BCD1E9 /* LaunchScreen.storyboard */,
+				0495F0C3257A2C2D00BCD1E9 /* Info.plist */,
+				0495F0C4257A2C2D00BCD1E9 /* main.m */,
 			);
 			path = LKAppCore;
 			sourceTree = "<group>";
 		};
-		0495EFC7257A06DA00BCD1E9 /* LKAppCoreTests */ = {
+		0495F0CD257A2C2E00BCD1E9 /* LKAppCoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				0495EFC8257A06DA00BCD1E9 /* LKAppCoreTests.m */,
-				0495EFCA257A06DA00BCD1E9 /* Info.plist */,
+				0495F0CE257A2C2E00BCD1E9 /* LKAppCoreTests.m */,
+				0495F0D0257A2C2E00BCD1E9 /* Info.plist */,
 			);
 			path = LKAppCoreTests;
 			sourceTree = "<group>";
 		};
-		0495EFD2257A06DA00BCD1E9 /* LKAppCoreUITests */ = {
+		0495F0D8257A2C2E00BCD1E9 /* LKAppCoreUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0495EFD3257A06DA00BCD1E9 /* LKAppCoreUITests.m */,
-				0495EFD5257A06DA00BCD1E9 /* Info.plist */,
+				0495F0D9257A2C2E00BCD1E9 /* LKAppCoreUITests.m */,
+				0495F0DB257A2C2E00BCD1E9 /* Info.plist */,
 			);
 			path = LKAppCoreUITests;
 			sourceTree = "<group>";
 		};
-		0495F086257A216500BCD1E9 /* LKNetwork */ = {
+		0495F0EA257A2C4B00BCD1E9 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				0495F087257A216500BCD1E9 /* LKUserInfoManager.m */,
-				0495F088257A216500BCD1E9 /* LKUserModel.h */,
-				0495F089257A216500BCD1E9 /* LKResponse.m */,
-				0495F08A257A216500BCD1E9 /* LKUploadRequest.h */,
-				0495F08B257A216500BCD1E9 /* LKRequest.m */,
-				0495F08C257A216500BCD1E9 /* LKUserInfoManager.h */,
-				0495F08D257A216500BCD1E9 /* LKUserModel.m */,
-				0495F08E257A216500BCD1E9 /* LKRequest.h */,
-				0495F08F257A216500BCD1E9 /* LKUploadRequest.m */,
-				0495F090257A216500BCD1E9 /* LKResponse.h */,
+				0495F0EE257A2C8600BCD1E9 /* AFNetworking.framework */,
+				0495F0EB257A2C8600BCD1E9 /* MJExtension.framework */,
+				0495F0ED257A2C8600BCD1E9 /* SVProgressHUD.framework */,
+				0495F0EC257A2C8600BCD1E9 /* YTKNetwork.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		0495F0F3257A2CD700BCD1E9 /* LKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				0495F0F4257A2CD700BCD1E9 /* LKUserInfoManager.m */,
+				0495F0F5257A2CD700BCD1E9 /* LKUserModel.h */,
+				0495F0F6257A2CD700BCD1E9 /* LKResponse.m */,
+				0495F0F7257A2CD700BCD1E9 /* LKUploadRequest.h */,
+				0495F0F8257A2CD700BCD1E9 /* LKRequest.m */,
+				0495F0F9257A2CD700BCD1E9 /* LKUserInfoManager.h */,
+				0495F0FA257A2CD700BCD1E9 /* LKUserModel.m */,
+				0495F0FB257A2CD700BCD1E9 /* LKRequest.h */,
+				0495F0FC257A2CD700BCD1E9 /* LKUploadRequest.m */,
+				0495F0FD257A2CD700BCD1E9 /* LKResponse.h */,
 			);
 			path = LKNetwork;
-			sourceTree = "<group>";
-		};
-		B2B806D048EC61CFDA17C437 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				27B1BFA6400811DE32C229FA /* Pods_LKAppCore.framework */,
-				653D3CEF17D161220F140326 /* Pods_LKAppCore_LKAppCoreUITests.framework */,
-				2BED524C50D9B3DA3BC26F9A /* Pods_LKAppCoreTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FAE6F1BEAA76FB693AAA19C0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0AB975E78A1EB9DCA31DE541 /* Pods-LKAppCore.debug.xcconfig */,
-				6AB893212F3178893CD59034 /* Pods-LKAppCore.release.xcconfig */,
-				64141392859CC9BCB5BD9E07 /* Pods-LKAppCore-LKAppCoreUITests.debug.xcconfig */,
-				F54A5909CDCEC5652B28346A /* Pods-LKAppCore-LKAppCoreUITests.release.xcconfig */,
-				BD9962707F285F441D5115D7 /* Pods-LKAppCoreTests.debug.xcconfig */,
-				FD20C682DA533BEAB32D2312 /* Pods-LKAppCoreTests.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0495EFA8257A06D800BCD1E9 /* LKAppCore */ = {
+		0495F0AE257A2C2A00BCD1E9 /* LKAppCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0495EFD8257A06DA00BCD1E9 /* Build configuration list for PBXNativeTarget "LKAppCore" */;
+			buildConfigurationList = 0495F0DE257A2C2E00BCD1E9 /* Build configuration list for PBXNativeTarget "LKAppCore" */;
 			buildPhases = (
-				B147F771ED216F2ED3C5AE79 /* [CP] Check Pods Manifest.lock */,
-				0495EFA5257A06D800BCD1E9 /* Sources */,
-				0495EFA6257A06D800BCD1E9 /* Frameworks */,
-				0495EFA7257A06D800BCD1E9 /* Resources */,
-				285734E20863045F4A536C50 /* [CP] Embed Pods Frameworks */,
+				0495F0AB257A2C2A00BCD1E9 /* Sources */,
+				0495F0AC257A2C2A00BCD1E9 /* Frameworks */,
+				0495F0AD257A2C2A00BCD1E9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -229,70 +211,67 @@
 			);
 			name = LKAppCore;
 			productName = LKAppCore;
-			productReference = 0495EFA9257A06D800BCD1E9 /* LKAppCore.app */;
+			productReference = 0495F0AF257A2C2A00BCD1E9 /* LKAppCore.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0495EFC3257A06DA00BCD1E9 /* LKAppCoreTests */ = {
+		0495F0C9257A2C2E00BCD1E9 /* LKAppCoreTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0495EFDB257A06DA00BCD1E9 /* Build configuration list for PBXNativeTarget "LKAppCoreTests" */;
+			buildConfigurationList = 0495F0E1257A2C2E00BCD1E9 /* Build configuration list for PBXNativeTarget "LKAppCoreTests" */;
 			buildPhases = (
-				61DD55905BC023EBAA7277BC /* [CP] Check Pods Manifest.lock */,
-				0495EFC0257A06DA00BCD1E9 /* Sources */,
-				0495EFC1257A06DA00BCD1E9 /* Frameworks */,
-				0495EFC2257A06DA00BCD1E9 /* Resources */,
+				0495F0C6257A2C2E00BCD1E9 /* Sources */,
+				0495F0C7257A2C2E00BCD1E9 /* Frameworks */,
+				0495F0C8257A2C2E00BCD1E9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0495EFC6257A06DA00BCD1E9 /* PBXTargetDependency */,
+				0495F0CC257A2C2E00BCD1E9 /* PBXTargetDependency */,
 			);
 			name = LKAppCoreTests;
 			productName = LKAppCoreTests;
-			productReference = 0495EFC4257A06DA00BCD1E9 /* LKAppCoreTests.xctest */;
+			productReference = 0495F0CA257A2C2E00BCD1E9 /* LKAppCoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0495EFCE257A06DA00BCD1E9 /* LKAppCoreUITests */ = {
+		0495F0D4257A2C2E00BCD1E9 /* LKAppCoreUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0495EFDE257A06DA00BCD1E9 /* Build configuration list for PBXNativeTarget "LKAppCoreUITests" */;
+			buildConfigurationList = 0495F0E4257A2C2E00BCD1E9 /* Build configuration list for PBXNativeTarget "LKAppCoreUITests" */;
 			buildPhases = (
-				CD46B5D7902C944C96F2DB7A /* [CP] Check Pods Manifest.lock */,
-				0495EFCB257A06DA00BCD1E9 /* Sources */,
-				0495EFCC257A06DA00BCD1E9 /* Frameworks */,
-				0495EFCD257A06DA00BCD1E9 /* Resources */,
-				167498849BB3B82E9AA9F7F6 /* [CP] Embed Pods Frameworks */,
+				0495F0D1257A2C2E00BCD1E9 /* Sources */,
+				0495F0D2257A2C2E00BCD1E9 /* Frameworks */,
+				0495F0D3257A2C2E00BCD1E9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0495EFD1257A06DA00BCD1E9 /* PBXTargetDependency */,
+				0495F0D7257A2C2E00BCD1E9 /* PBXTargetDependency */,
 			);
 			name = LKAppCoreUITests;
 			productName = LKAppCoreUITests;
-			productReference = 0495EFCF257A06DA00BCD1E9 /* LKAppCoreUITests.xctest */;
+			productReference = 0495F0D5257A2C2E00BCD1E9 /* LKAppCoreUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0495EFA1257A06D800BCD1E9 /* Project object */ = {
+		0495F0A7257A2C2A00BCD1E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					0495EFA8257A06D800BCD1E9 = {
+					0495F0AE257A2C2A00BCD1E9 = {
 						CreatedOnToolsVersion = 12.2;
 					};
-					0495EFC3257A06DA00BCD1E9 = {
+					0495F0C9257A2C2E00BCD1E9 = {
 						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 0495EFA8257A06D800BCD1E9;
+						TestTargetID = 0495F0AE257A2C2A00BCD1E9;
 					};
-					0495EFCE257A06DA00BCD1E9 = {
+					0495F0D4257A2C2E00BCD1E9 = {
 						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 0495EFA8257A06D800BCD1E9;
+						TestTargetID = 0495F0AE257A2C2A00BCD1E9;
 					};
 				};
 			};
-			buildConfigurationList = 0495EFA4257A06D800BCD1E9 /* Build configuration list for PBXProject "LKAppCore" */;
+			buildConfigurationList = 0495F0AA257A2C2A00BCD1E9 /* Build configuration list for PBXProject "LKAppCore" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -300,37 +279,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 0495EFA0257A06D800BCD1E9;
-			productRefGroup = 0495EFAA257A06D800BCD1E9 /* Products */;
+			mainGroup = 0495F0A6257A2C2A00BCD1E9;
+			productRefGroup = 0495F0B0257A2C2A00BCD1E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0495EFA8257A06D800BCD1E9 /* LKAppCore */,
-				0495EFC3257A06DA00BCD1E9 /* LKAppCoreTests */,
-				0495EFCE257A06DA00BCD1E9 /* LKAppCoreUITests */,
+				0495F0AE257A2C2A00BCD1E9 /* LKAppCore */,
+				0495F0C9257A2C2E00BCD1E9 /* LKAppCoreTests */,
+				0495F0D4257A2C2E00BCD1E9 /* LKAppCoreUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0495EFA7257A06D800BCD1E9 /* Resources */ = {
+		0495F0AD257A2C2A00BCD1E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0495EFBC257A06DA00BCD1E9 /* LaunchScreen.storyboard in Resources */,
-				0495EFB9257A06DA00BCD1E9 /* Assets.xcassets in Resources */,
-				0495EFB7257A06D800BCD1E9 /* Main.storyboard in Resources */,
+				0495F0C2257A2C2D00BCD1E9 /* LaunchScreen.storyboard in Resources */,
+				0495F0BF257A2C2D00BCD1E9 /* Assets.xcassets in Resources */,
+				0495F0BD257A2C2A00BCD1E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0495EFC2257A06DA00BCD1E9 /* Resources */ = {
+		0495F0C8257A2C2E00BCD1E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0495EFCD257A06DA00BCD1E9 /* Resources */ = {
+		0495F0D3257A2C2E00BCD1E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,170 +318,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		167498849BB3B82E9AA9F7F6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LKAppCore-LKAppCoreUITests/Pods-LKAppCore-LKAppCoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LKAppCore-LKAppCoreUITests/Pods-LKAppCore-LKAppCoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LKAppCore-LKAppCoreUITests/Pods-LKAppCore-LKAppCoreUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		285734E20863045F4A536C50 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LKAppCore/Pods-LKAppCore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LKAppCore/Pods-LKAppCore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LKAppCore/Pods-LKAppCore-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		61DD55905BC023EBAA7277BC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LKAppCoreTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B147F771ED216F2ED3C5AE79 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LKAppCore-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CD46B5D7902C944C96F2DB7A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LKAppCore-LKAppCoreUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0495EFA5257A06D800BCD1E9 /* Sources */ = {
+		0495F0AB257A2C2A00BCD1E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0495F095257A216500BCD1E9 /* LKUploadRequest.m in Sources */,
-				0495EFB4257A06D800BCD1E9 /* ViewController.m in Sources */,
-				0495EFAE257A06D800BCD1E9 /* AppDelegate.m in Sources */,
-				0495F091257A216500BCD1E9 /* LKUserInfoManager.m in Sources */,
-				0495EFBF257A06DA00BCD1E9 /* main.m in Sources */,
-				0495EFB1257A06D800BCD1E9 /* SceneDelegate.m in Sources */,
-				0495F093257A216500BCD1E9 /* LKRequest.m in Sources */,
-				0495F092257A216500BCD1E9 /* LKResponse.m in Sources */,
-				0495F094257A216500BCD1E9 /* LKUserModel.m in Sources */,
+				0495F102257A2CD700BCD1E9 /* LKUploadRequest.m in Sources */,
+				0495F0BA257A2C2A00BCD1E9 /* ViewController.m in Sources */,
+				0495F0B4257A2C2A00BCD1E9 /* AppDelegate.m in Sources */,
+				0495F0FE257A2CD700BCD1E9 /* LKUserInfoManager.m in Sources */,
+				0495F0C5257A2C2D00BCD1E9 /* main.m in Sources */,
+				0495F0B7257A2C2A00BCD1E9 /* SceneDelegate.m in Sources */,
+				0495F100257A2CD700BCD1E9 /* LKRequest.m in Sources */,
+				0495F0FF257A2CD700BCD1E9 /* LKResponse.m in Sources */,
+				0495F101257A2CD700BCD1E9 /* LKUserModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0495EFC0257A06DA00BCD1E9 /* Sources */ = {
+		0495F0C6257A2C2E00BCD1E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0495EFC9257A06DA00BCD1E9 /* LKAppCoreTests.m in Sources */,
+				0495F0CF257A2C2E00BCD1E9 /* LKAppCoreTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0495EFCB257A06DA00BCD1E9 /* Sources */ = {
+		0495F0D1257A2C2E00BCD1E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0495EFD4257A06DA00BCD1E9 /* LKAppCoreUITests.m in Sources */,
+				0495F0DA257A2C2E00BCD1E9 /* LKAppCoreUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0495EFC6257A06DA00BCD1E9 /* PBXTargetDependency */ = {
+		0495F0CC257A2C2E00BCD1E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0495EFA8257A06D800BCD1E9 /* LKAppCore */;
-			targetProxy = 0495EFC5257A06DA00BCD1E9 /* PBXContainerItemProxy */;
+			target = 0495F0AE257A2C2A00BCD1E9 /* LKAppCore */;
+			targetProxy = 0495F0CB257A2C2E00BCD1E9 /* PBXContainerItemProxy */;
 		};
-		0495EFD1257A06DA00BCD1E9 /* PBXTargetDependency */ = {
+		0495F0D7257A2C2E00BCD1E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0495EFA8257A06D800BCD1E9 /* LKAppCore */;
-			targetProxy = 0495EFD0257A06DA00BCD1E9 /* PBXContainerItemProxy */;
+			target = 0495F0AE257A2C2A00BCD1E9 /* LKAppCore */;
+			targetProxy = 0495F0D6257A2C2E00BCD1E9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0495EFB5257A06D800BCD1E9 /* Main.storyboard */ = {
+		0495F0BB257A2C2A00BCD1E9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0495EFB6257A06D800BCD1E9 /* Base */,
+				0495F0BC257A2C2A00BCD1E9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0495EFBA257A06DA00BCD1E9 /* LaunchScreen.storyboard */ = {
+		0495F0C0257A2C2D00BCD1E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0495EFBB257A06DA00BCD1E9 /* Base */,
+				0495F0C1257A2C2D00BCD1E9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -510,7 +386,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0495EFD6257A06DA00BCD1E9 /* Debug */ = {
+		0495F0DC257A2C2E00BCD1E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -569,7 +445,7 @@
 			};
 			name = Debug;
 		};
-		0495EFD7257A06DA00BCD1E9 /* Release */ = {
+		0495F0DD257A2C2E00BCD1E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -622,15 +498,17 @@
 			};
 			name = Release;
 		};
-		0495EFD9257A06DA00BCD1E9 /* Debug */ = {
+		0495F0DF257A2C2E00BCD1E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AB975E78A1EB9DCA31DE541 /* Pods-LKAppCore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				INFOPLIST_FILE = LKAppCore/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -641,15 +519,17 @@
 			};
 			name = Debug;
 		};
-		0495EFDA257A06DA00BCD1E9 /* Release */ = {
+		0495F0E0257A2C2E00BCD1E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AB893212F3178893CD59034 /* Pods-LKAppCore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				INFOPLIST_FILE = LKAppCore/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -660,9 +540,8 @@
 			};
 			name = Release;
 		};
-		0495EFDC257A06DA00BCD1E9 /* Debug */ = {
+		0495F0E2257A2C2E00BCD1E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD9962707F285F441D5115D7 /* Pods-LKAppCoreTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -680,9 +559,8 @@
 			};
 			name = Debug;
 		};
-		0495EFDD257A06DA00BCD1E9 /* Release */ = {
+		0495F0E3257A2C2E00BCD1E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD20C682DA533BEAB32D2312 /* Pods-LKAppCoreTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -700,9 +578,8 @@
 			};
 			name = Release;
 		};
-		0495EFDF257A06DA00BCD1E9 /* Debug */ = {
+		0495F0E5257A2C2E00BCD1E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64141392859CC9BCB5BD9E07 /* Pods-LKAppCore-LKAppCoreUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LKAppCoreUITests/Info.plist;
@@ -718,9 +595,8 @@
 			};
 			name = Debug;
 		};
-		0495EFE0257A06DA00BCD1E9 /* Release */ = {
+		0495F0E6257A2C2E00BCD1E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F54A5909CDCEC5652B28346A /* Pods-LKAppCore-LKAppCoreUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LKAppCoreUITests/Info.plist;
@@ -739,43 +615,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0495EFA4257A06D800BCD1E9 /* Build configuration list for PBXProject "LKAppCore" */ = {
+		0495F0AA257A2C2A00BCD1E9 /* Build configuration list for PBXProject "LKAppCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0495EFD6257A06DA00BCD1E9 /* Debug */,
-				0495EFD7257A06DA00BCD1E9 /* Release */,
+				0495F0DC257A2C2E00BCD1E9 /* Debug */,
+				0495F0DD257A2C2E00BCD1E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0495EFD8257A06DA00BCD1E9 /* Build configuration list for PBXNativeTarget "LKAppCore" */ = {
+		0495F0DE257A2C2E00BCD1E9 /* Build configuration list for PBXNativeTarget "LKAppCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0495EFD9257A06DA00BCD1E9 /* Debug */,
-				0495EFDA257A06DA00BCD1E9 /* Release */,
+				0495F0DF257A2C2E00BCD1E9 /* Debug */,
+				0495F0E0257A2C2E00BCD1E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0495EFDB257A06DA00BCD1E9 /* Build configuration list for PBXNativeTarget "LKAppCoreTests" */ = {
+		0495F0E1257A2C2E00BCD1E9 /* Build configuration list for PBXNativeTarget "LKAppCoreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0495EFDC257A06DA00BCD1E9 /* Debug */,
-				0495EFDD257A06DA00BCD1E9 /* Release */,
+				0495F0E2257A2C2E00BCD1E9 /* Debug */,
+				0495F0E3257A2C2E00BCD1E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0495EFDE257A06DA00BCD1E9 /* Build configuration list for PBXNativeTarget "LKAppCoreUITests" */ = {
+		0495F0E4257A2C2E00BCD1E9 /* Build configuration list for PBXNativeTarget "LKAppCoreUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0495EFDF257A06DA00BCD1E9 /* Debug */,
-				0495EFE0257A06DA00BCD1E9 /* Release */,
+				0495F0E5257A2C2E00BCD1E9 /* Debug */,
+				0495F0E6257A2C2E00BCD1E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0495EFA1257A06D800BCD1E9 /* Project object */;
+	rootObject = 0495F0A7257A2C2A00BCD1E9 /* Project object */;
 }
